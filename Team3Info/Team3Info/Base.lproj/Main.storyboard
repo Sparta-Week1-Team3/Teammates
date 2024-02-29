@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="wZD-Iv-rXz">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="TSV-EV-Ue4">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -317,6 +317,15 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="aboutView" destination="zDE-gk-Zb2" id="Y5K-j7-HrU"/>
+                        <outlet property="homepageGithubText" destination="Xgh-ei-MSn" id="Yn4-HF-3UP"/>
+                        <outlet property="homepageGithubTitle" destination="nq5-xp-92v" id="S4k-Lo-b6Z"/>
+                        <outlet property="homepageVelogText" destination="KxU-n3-c8T" id="pkb-aI-GJq"/>
+                        <outlet property="homepageVelogTitle" destination="EGt-YI-RAx" id="Vlz-iy-CFP"/>
+                        <outlet property="homepageView" destination="5fP-VO-hgF" id="sUu-i0-pOa"/>
+                        <outlet property="introduceTag" destination="7UO-hs-nvO" id="Bn5-nO-Ycf"/>
+                        <outlet property="introduceText" destination="Gb9-Z8-f2Y" id="n4k-Cp-J4I"/>
+                        <outlet property="introduceView" destination="0WL-eV-kf6" id="VMc-o4-2Gn"/>
                         <outlet property="profileBirth" destination="JhG-e8-DBf" id="8xB-EC-cPg"/>
                         <outlet property="profileBirthDetail" destination="Ihh-Ze-f0t" id="La7-zs-eL3"/>
                         <outlet property="profileImage" destination="4rd-Zy-Tnm" id="Vr2-iR-w85"/>
