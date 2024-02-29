@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  DetailViewController.swift
 //  Team3Info
 //
 //  Created by /Chynmn/M1 pro—̳͟͞͞♡ on 2/27/24.
@@ -7,13 +7,19 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class DetailViewController: UIViewController {
 
+
+    
+    var memberData: Member?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+
         
     }
+    
+
 
 
 }
-
