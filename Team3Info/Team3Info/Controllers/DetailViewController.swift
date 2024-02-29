@@ -58,6 +58,7 @@ class DetailViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+
         profileView.layer.cornerRadius = 25
         introduceView.layer.cornerRadius = 20
         homepageView.layer.cornerRadius = 20
