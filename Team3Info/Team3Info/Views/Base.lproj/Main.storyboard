@@ -63,7 +63,7 @@
                                                     <state key="normal" title="Button"/>
                                                     <buttonConfiguration key="configuration" style="plain" title="Show Detail"/>
                                                     <connections>
-                                                        <segue destination="Do4-dx-Muc" kind="showDetail" id="d9F-9g-D84"/>
+                                                        <segue destination="Do4-dx-Muc" kind="presentation" identifier="toDetail" id="dpp-x0-ZDU"/>
                                                     </connections>
                                                 </button>
                                             </subviews>
@@ -444,6 +444,7 @@
                             <constraint firstItem="yyl-4b-yZO" firstAttribute="leading" secondItem="Ceg-Sz-8kx" secondAttribute="leading" constant="20.5" id="vSN-Ie-YP8"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="e6b-ey-N1W"/>
                     <connections>
                         <outlet property="aboutView" destination="Rdp-Ac-dhD" id="oQj-o6-CJ1"/>
                         <outlet property="homepageGithubText" destination="Eui-qv-drL" id="VEd-Cs-4YN"/>
@@ -476,10 +477,10 @@
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemCyanColor">
-            <color red="0.19607843137254902" green="0.67843137254901964" blue="0.90196078431372551" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.1960784314" green="0.67843137249999996" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemGrayColor">
-            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

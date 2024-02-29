@@ -64,11 +64,12 @@ class DetailViewController: UIViewController {
         aboutView.layer.cornerRadius = 10
         profileImage.backgroundColor = .lightGray
         
+        print(selectedMember)
         if let member = selectedMember {
-            profileImage.image = member.profileImage
-            profileName.text = member.memberName
-            profileMail.text = member.memberEmail
-            
+            //profileView.image = selectedMember?.profileImage
+            profileMail.text = selectedMember?.memberEmail
+            profileName.text = selectedMember?.memberName
+            profileBirth.text = selectedMember?.memberBirth
         }
         
     }
