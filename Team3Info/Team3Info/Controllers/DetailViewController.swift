@@ -52,8 +52,8 @@ class DetailViewController: UIViewController {
     
     @IBOutlet weak var homepageGithubText: UILabel!
     
-    
-    
+    //데이터 전달 받는 변수
+    var selectedMember: Member?
     
     
     override func viewDidLoad() {
@@ -64,8 +64,13 @@ class DetailViewController: UIViewController {
         aboutView.layer.cornerRadius = 10
         profileImage.backgroundColor = .lightGray
         
+        if let member = selectedMember {
+            profileImage.image = member.profileImage
+            profileName.text = member.memberName
+            profileMail.text = member.memberEmail
+            
+        }
         
-
     }
     
 

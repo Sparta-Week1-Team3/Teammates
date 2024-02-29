@@ -77,7 +77,7 @@ extension TableViewController: UITableViewDelegate {
             
             let indexPath = sender as! IndexPath
             
-//            전달할 데이터
+            //            전달할 데이터
             //detailVC.memberData = array[indexPath.row]
         }
     }
