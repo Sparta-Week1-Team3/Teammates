@@ -35,6 +35,14 @@ class TableViewController: UIViewController {
         memberArray = memberDataManager.getMemberData()
     }
     
+    @IBAction func showDetailButtonTapped(_ sender: UIButton) {
+        guard let detailVC = storyboard?.instantiateViewController(withIdentifier: "toDetail") as? DetailViewController else { return }
+        
+//        detailVC.memberData = memberDataManager.getMemberData()
+        present(detailVC, animated: true, completion: nil)
+        
+    }
+
 
 }
 
@@ -78,7 +86,7 @@ extension TableViewController: UITableViewDelegate {
             let indexPath = sender as! IndexPath
             
 //            전달할 데이터
-            detailVC.memberData = array[indexPath.row]
+            detailVC.selectedMember = array[indexPath.row]
         }
     }
 }

@@ -29,11 +29,11 @@ class ViewController: UIViewController {
     }
     
     func setup()  {
-        memberCharacter1.image = UIImage(named: "chynmn2")
-        memberCharacter2.image = UIImage(named: "chynmn3")
+        memberCharacter1.image = UIImage(named: "Heather")
+        memberCharacter2.image = UIImage(named: "taedam")
         memberCharacter3.image = UIImage(named: "chynmn2")
-        memberCharacter4.image = UIImage(named: "chynmn3")
-        memberCharacter5.image = UIImage(named: "chynmn2")
+        memberCharacter4.image = UIImage(named: "HJ")
+        memberCharacter5.image = UIImage(named: "CG")
         
         mainImageView.image = UIImage(named: "apple")
     }
