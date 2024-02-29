@@ -198,41 +198,44 @@
                                     <constraint firstAttribute="height" constant="35" id="grL-a7-TY8"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5fP-VO-hgF">
-                                <rect key="frame" x="20.666666666666657" y="609" width="352" height="116"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5fP-VO-hgF">
+                                <rect key="frame" x="20.666666666666657" y="609" width="352" height="118"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="www.velog.com" lineBreakMode="characterWrap" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KxU-n3-c8T">
-                                        <rect key="frame" x="145" y="20" width="188" height="44"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="www.velog.com" lineBreakMode="characterWrap" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KxU-n3-c8T">
+                                        <rect key="frame" x="145" y="27" width="190" height="30"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="188" id="bfO-0C-de4"/>
-                                            <constraint firstAttribute="height" constant="44" id="cpb-n7-WUm"/>
+                                            <constraint firstAttribute="width" constant="190" id="bCf-Fs-qjU"/>
+                                            <constraint firstAttribute="height" constant="30" id="tZp-4m-uBQ"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="www.velog.com" lineBreakMode="characterWrap" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jTf-ra-2HI">
-                                        <rect key="frame" x="145" y="54" width="199" height="44"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Velog" textAlignment="right" lineBreakMode="characterWrap" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EGt-YI-RAx">
-                                        <rect key="frame" x="21" y="20" width="96" height="43.863374857597108"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Velog" textAlignment="right" lineBreakMode="characterWrap" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EGt-YI-RAx">
+                                        <rect key="frame" x="21" y="27" width="96" height="30"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="96" id="Jtq-Ku-bkP"/>
-                                            <constraint firstAttribute="height" constant="43.859999999999999" id="hc5-rP-sWY"/>
+                                            <constraint firstAttribute="height" constant="30" id="sxy-Ph-YIp"/>
+                                            <constraint firstAttribute="width" constant="96" id="z2o-ZD-Che"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Github" textAlignment="right" lineBreakMode="characterWrap" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ggh-OK-2Yf">
-                                        <rect key="frame" x="21" y="54" width="96" height="43.863374857597137"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="www.velog.com" lineBreakMode="characterWrap" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xgh-ei-MSn">
+                                        <rect key="frame" x="145" y="65" width="119" height="30"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="43.859999999999999" id="gg4-op-1tL"/>
-                                            <constraint firstAttribute="width" constant="96" id="taW-vY-RBn"/>
+                                            <constraint firstAttribute="height" constant="30" id="h85-aV-P1x"/>
+                                            <constraint firstAttribute="width" constant="119" id="mi6-bZ-1ql"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Velog" textAlignment="right" lineBreakMode="characterWrap" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nq5-xp-92v">
+                                        <rect key="frame" x="21" y="65" width="96" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="E0U-0N-svd"/>
+                                            <constraint firstAttribute="width" constant="96" id="y3R-sk-QPQ"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
@@ -241,11 +244,18 @@
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstItem="ggh-OK-2Yf" firstAttribute="leading" secondItem="5fP-VO-hgF" secondAttribute="leading" constant="21" id="7NL-Xn-Feq"/>
-                                    <constraint firstItem="EGt-YI-RAx" firstAttribute="leading" secondItem="5fP-VO-hgF" secondAttribute="leading" constant="21" id="MmV-mh-x13"/>
-                                    <constraint firstItem="KxU-n3-c8T" firstAttribute="leading" secondItem="EGt-YI-RAx" secondAttribute="trailing" constant="28" id="fqz-5t-5Dg"/>
-                                    <constraint firstItem="KxU-n3-c8T" firstAttribute="leading" secondItem="EGt-YI-RAx" secondAttribute="trailing" constant="28" id="vtD-hq-GLA"/>
-                                    <constraint firstItem="KxU-n3-c8T" firstAttribute="leading" secondItem="ggh-OK-2Yf" secondAttribute="trailing" constant="28" id="wtd-08-Ago"/>
+                                    <constraint firstItem="Xgh-ei-MSn" firstAttribute="leading" secondItem="nq5-xp-92v" secondAttribute="trailing" constant="28" id="0wl-2u-vLd"/>
+                                    <constraint firstItem="nq5-xp-92v" firstAttribute="leading" secondItem="5fP-VO-hgF" secondAttribute="leading" constant="21" id="3Jl-A3-z9D"/>
+                                    <constraint firstAttribute="bottom" secondItem="nq5-xp-92v" secondAttribute="bottom" constant="23" id="5a6-PL-ZKs"/>
+                                    <constraint firstAttribute="height" constant="118" id="GlO-CT-Wtp"/>
+                                    <constraint firstItem="KxU-n3-c8T" firstAttribute="top" secondItem="5fP-VO-hgF" secondAttribute="top" constant="27" id="K2d-uJ-SYN"/>
+                                    <constraint firstAttribute="width" constant="352" id="K8R-vB-gm8"/>
+                                    <constraint firstItem="Xgh-ei-MSn" firstAttribute="leading" secondItem="nq5-xp-92v" secondAttribute="trailing" constant="28" id="OIT-Hy-hft"/>
+                                    <constraint firstItem="EGt-YI-RAx" firstAttribute="top" secondItem="5fP-VO-hgF" secondAttribute="top" constant="27" id="RdG-nb-wDy"/>
+                                    <constraint firstItem="EGt-YI-RAx" firstAttribute="leading" secondItem="5fP-VO-hgF" secondAttribute="leading" constant="21" id="gab-fu-yHY"/>
+                                    <constraint firstAttribute="bottom" secondItem="Xgh-ei-MSn" secondAttribute="bottom" constant="23" id="ht1-1y-Vkp"/>
+                                    <constraint firstItem="KxU-n3-c8T" firstAttribute="leading" secondItem="EGt-YI-RAx" secondAttribute="trailing" constant="28" id="xUO-ah-5CY"/>
+                                    <constraint firstItem="Xgh-ei-MSn" firstAttribute="leading" secondItem="nq5-xp-92v" secondAttribute="trailing" constant="28" id="xXP-LS-55v"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0WL-eV-kf6">
@@ -301,13 +311,17 @@
                             <constraint firstItem="zDE-gk-Zb2" firstAttribute="top" secondItem="REr-fg-Tzy" secondAttribute="bottom" constant="30" id="Q3i-3i-m1e"/>
                             <constraint firstItem="LGq-gL-lMr" firstAttribute="trailing" secondItem="zDE-gk-Zb2" secondAttribute="trailing" constant="150" id="Rsc-WB-ykA"/>
                             <constraint firstItem="LGq-gL-lMr" firstAttribute="trailing" secondItem="5fP-VO-hgF" secondAttribute="trailing" constant="20.5" id="WgI-Dl-mF0"/>
-                            <constraint firstItem="5fP-VO-hgF" firstAttribute="top" secondItem="0WL-eV-kf6" secondAttribute="bottom" constant="15" id="Wid-Yd-Zxc"/>
                             <constraint firstItem="REr-fg-Tzy" firstAttribute="top" secondItem="LGq-gL-lMr" secondAttribute="top" constant="54" id="cUm-1D-iZJ"/>
+                            <constraint firstItem="5fP-VO-hgF" firstAttribute="top" secondItem="0WL-eV-kf6" secondAttribute="bottom" constant="15" id="uaw-DC-bb1"/>
                             <constraint firstItem="LGq-gL-lMr" firstAttribute="trailing" secondItem="0WL-eV-kf6" secondAttribute="trailing" constant="20.5" id="wmc-Oo-tA4"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="profileBirth" destination="JhG-e8-DBf" id="8xB-EC-cPg"/>
+                        <outlet property="profileBirthDetail" destination="Ihh-Ze-f0t" id="La7-zs-eL3"/>
                         <outlet property="profileImage" destination="4rd-Zy-Tnm" id="Vr2-iR-w85"/>
+                        <outlet property="profileMail" destination="jaq-eR-p59" id="xbu-Eb-qLo"/>
+                        <outlet property="profileMailDetail" destination="jdE-Jc-5Tw" id="RJK-AW-xYK"/>
                         <outlet property="profileName" destination="iL7-9E-3dS" id="um4-qX-Eno"/>
                         <outlet property="profileView" destination="REr-fg-Tzy" id="KBX-Fg-s8g"/>
                     </connections>
